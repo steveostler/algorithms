@@ -17,3 +17,11 @@ Selection sort is a neat algorithm but it's not very fast. It takes O(n x n) tim
 * Given two algorithms with same big O running time, one can be consitently faster than the other. That's why quicksort is faster than merge sort.
 * The constant almost never matters for simple search versus binary search because O(log n) is so much faster than o(n) when your list gets big.
 
+### Hash Tables
+Hash tables are good for
+* Modeling relationships from one thing to another thing
+* Filtering out duplicates
+* Caching/memorising data instead of making server do the work
+* You'll almost never have to implement a hash table yourself. The programming language shouldprovide an implementation for you. you can use python's hash tables and assume you'll get the average-case performance: constant time
+ 
+
